@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7C3AED" />
+    <meta
+      name="description"
+      content="Política de Privacidad de Adoppi. Conoce cómo se tratan y protegen tus datos personales."
+    />
+    <title>Adoppi — Política de Privacidad</title>
+
+    <style>
+      :root {
+        --primary: #7c3aed;
+        --primary-light: #f3eeff;
+        --error: #ef4444;
+        --text: #111827;
+        --text2: #6b7280;
+        --divider: #e5e7eb;
+        --bg: #f9fafb;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      header {
+        background: var(--primary);
+        padding: 24px 20px;
+        text-align: center;
+      }
+
+      header .logo {
+        width: 56px;
+        height: 56px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+
+      header h1 {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      header p {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+        margin-top: 4px;
+      }
+
+      main {
+        max-width: 680px;
+        margin: 32px auto;
+        padding: 0 16px 60px;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 16px;
+        border: 1px solid var(--divider);
+        padding: 24px;
+        margin-bottom: 20px;
+      }
+
+      .card h2 {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--primary);
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .card h2 .icon {
+        width: 32px;
+        height: 32px;
+        background: var(--primary-light);
+        border-radius: 8px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        flex-shrink: 0;
+      }
+
+      .card p,
+      .card li {
+        font-size: 14px;
+        color: var(--text2);
+      }
+
+      .card p + p {
+        margin-top: 10px;
+      }
+
+      .card ol,
+      .card ul {
+        padding-left: 20px;
+        margin-top: 8px;
+      }
+
+      .card li {
+        margin-bottom: 6px;
+      }
+
+      .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+        margin-top: 12px;
+      }
+
+      .data-table th {
+        background: var(--primary-light);
+        color: var(--primary);
+        font-weight: 600;
+        padding: 10px 12px;
+        text-align: left;
+      }
+
+      .data-table td {
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--divider);
+        color: var(--text2);
+        vertical-align: top;
+      }
+
+      .data-table tr:last-child td {
+        border-bottom: none;
+      }
+
+      .contact-box {
+        background: var(--primary-light);
+        border: 1px solid rgba(124, 58, 237, 0.2);
+        border-radius: 12px;
+        padding: 16px;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        margin-top: 16px;
+      }
+
+      .contact-box .mail-icon {
+        width: 44px;
+        height: 44px;
+        background: var(--primary);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        flex-shrink: 0;
+      }
+
+      .contact-box a {
+        color: var(--primary);
+        font-weight: 600;
+        text-decoration: none;
+        overflow-wrap: anywhere;
+      }
+
+      .contact-box p {
+        font-size: 13px;
+        color: var(--text2);
+        margin-top: 2px;
+      }
+
+      .card a {
+        color: var(--primary);
+        overflow-wrap: anywhere;
+      }
+
+      .notice {
+        background: var(--primary-light);
+        border-radius: 10px;
+        padding: 12px 14px;
+        margin-top: 12px;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+        color: var(--text2);
+        padding: 20px;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #111827;
+          --text: #f9fafb;
+          --text2: #9ca3af;
+          --divider: #374151;
+          --primary-light: #1e1040;
+        }
+
+        .card {
+          background: #1f2937;
+        }
+        header {
+          background: #5b21b6;
+        }
+        .data-table th {
+          background: #1e1040;
+        }
+        .contact-box {
+          border-color: rgba(167, 139, 250, 0.25);
+        }
+        .notice {
+          background: #1e1040;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .card {
+          padding: 18px;
+        }
+
+        .data-table {
+          font-size: 12px;
+        }
+
+        .data-table th,
+        .data-table td {
+          padding: 9px 7px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">🐾</div>
+      <h1>Adoppi</h1>
+      <p>Política de Privacidad</p>
+    </header>
+
+    <main>
+      <!-- Introducción -->
+      <div class="card">
+        <h2><span class="icon">ℹ️</span> Sobre esta política</h2>
+        <p>
+          Adoppi es una aplicación desarrollada para conectar refugios de
+          animales con personas interesadas en adoptar mascotas en Colombia. Nos
+          comprometemos a tratar los datos personales de manera responsable,
+          transparente y de acuerdo con la legislación aplicable.
+        </p>
+        <p>
+          En esta página explicamos qué información puede tratarse al utilizar
+          nuestra aplicación, con qué finalidad se utiliza, cómo puede
+          compartirse y cuáles son los derechos de nuestros usuarios.
+        </p>
+        <p><strong>Última actualización:</strong> 13 de octubre de 2026.</p>
+      </div>
+
+      <!-- Responsable -->
+      <div class="card">
+        <h2><span class="icon">👤</span> 1. Responsable del tratamiento</h2>
+        <p>
+          El tratamiento de los datos personales relacionados con Adoppi está a
+          cargo del responsable de la aplicación, quien debe atender las
+          consultas y solicitudes de los titulares de la información.
+        </p>
+        <p><strong>Aplicación:</strong> Adoppi.</p>
+        <p><strong>Ubicación:</strong> Cali, Colombia.</p>
+        <p><strong>Correo de contacto:</strong> adoppi0908@gmail.com.</p>
+        <p>
+          La información de contacto anterior permite comunicarte con el equipo
+          de Adoppi para presentar consultas o solicitudes relacionadas con tus
+          datos personales.
+        </p>
+      </div>
+
+      <!-- Información recopilada -->
+      <div class="card">
+        <h2><span class="icon">📋</span> 2. Información que recopilamos</h2>
+        <p>
+          Dependiendo de las funciones que utilices y de la información que
+          proporciones, Adoppi puede tratar las siguientes categorías de datos:
+        </p>
+
+        <ul>
+          <li>
+            <strong>Datos de cuenta:</strong> nombre, correo electrónico y
+            credenciales de autenticación gestionadas por el servicio de acceso.
+          </li>
+          <li>
+            <strong>Información de perfil:</strong> ciudad, número de teléfono y
+            fotografía de perfil, cuando corresponda.
+          </li>
+          <li>
+            <strong>Información de adopción:</strong> preferencias de mascotas,
+            solicitudes de adopción e información necesaria para dar seguimiento
+            a los procesos.
+          </li>
+          <li>
+            <strong>Mensajes:</strong> contenido de las conversaciones
+            realizadas mediante las funciones de comunicación de la aplicación.
+          </li>
+          <li>
+            <strong>Información de refugios:</strong> datos del refugio,
+            información de contacto y publicaciones de mascotas, cuando
+            corresponda.
+          </li>
+          <li>
+            <strong>Información técnica:</strong> registros necesarios para
+            mantener la seguridad, diagnosticar errores y permitir el
+            funcionamiento de la plataforma, cuando se generen o recopilen.
+          </li>
+        </ul>
+
+        <p>
+          Solicitamos o tratamos únicamente la información que resulte necesaria
+          para las funcionalidades correspondientes. Los datos efectivamente
+          recopilados dependen de la implementación de la aplicación.
+        </p>
+      </div>
+
+      <!-- Finalidad -->
+      <div class="card">
+        <h2><span class="icon">🎯</span> 3. ¿Para qué utilizamos tus datos?</h2>
+        <p>La información personal puede utilizarse para:</p>
+        <ul>
+          <li>Crear, autenticar y administrar cuentas de usuario.</li>
+          <li>Permitir la gestión de perfiles personales y de refugios.</li>
+          <li>
+            Facilitar el contacto entre adoptantes y refugios registrados.
+          </li>
+          <li>Gestionar las solicitudes y el seguimiento de adopciones.</li>
+          <li>
+            Permitir las conversaciones relacionadas con el uso de la
+            plataforma.
+          </li>
+          <li>
+            Enviar notificaciones relacionadas con la actividad de la cuenta.
+          </li>
+          <li>
+            Prevenir usos indebidos y proteger la seguridad de los usuarios.
+          </li>
+          <li>Atender consultas, solicitudes y reclamaciones.</li>
+          <li>
+            Mejorar el funcionamiento de la aplicación cuando corresponda.
+          </li>
+        </ul>
+        <p>
+          Los datos no deben utilizarse para finalidades incompatibles con las
+          informadas al usuario, salvo que exista una base legal que lo permita.
+        </p>
+      </div>
+
+      <!-- Compartición -->
+      <div class="card">
+        <h2><span class="icon">🔗</span> 4. Compartición de información</h2>
+        <p>
+          Adoppi facilita la comunicación entre personas interesadas en adoptar
+          y refugios de animales. Por esta razón, cierta información puede ser
+          accesible para otros usuarios según las funciones utilizadas, la
+          configuración de la aplicación y los permisos correspondientes.
+        </p>
+        <ul>
+          <li>
+            <strong>Refugios:</strong> pueden recibir la información necesaria
+            para gestionar las solicitudes de adopción dirigidas a ellos.
+          </li>
+          <li>
+            <strong>Otros usuarios:</strong> pueden ver los datos que se hagan
+            visibles mediante perfiles, publicaciones o funciones de
+            interacción.
+          </li>
+          <li>
+            <strong>Proveedores tecnológicos:</strong> pueden procesar datos
+            cuando sea necesario para prestar servicios de infraestructura,
+            autenticación, almacenamiento, comunicaciones o notificaciones.
+          </li>
+          <li>
+            <strong>Autoridades competentes:</strong> la información podrá
+            comunicarse cuando exista una obligación legal válida.
+          </li>
+        </ul>
+        <p>
+          No se debe compartir información personal para finalidades ajenas a la
+          operación de Adoppi sin contar con la autorización o la base jurídica
+          que corresponda.
+        </p>
+      </div>
+
+      <!-- Proveedores -->
+      <div class="card">
+        <h2><span class="icon">⚙️</span> 5. Servicios tecnológicos</h2>
+        <p>
+          Adoppi puede apoyarse en proveedores tecnológicos para prestar sus
+          funcionalidades, dependiendo de la configuración vigente de la
+          aplicación. Estos servicios pueden intervenir en la autenticación, el
+          almacenamiento de información y las notificaciones.
+        </p>
+        <p>
+          Cuando dichos proveedores traten datos personales, su utilización debe
+          ajustarse a las finalidades del servicio, las condiciones
+          contractuales y las normas de protección de datos aplicables.
+        </p>
+        <p>
+          Los proveedores concretos, las categorías de datos que reciben y las
+          condiciones de transferencia internacional deben identificarse de
+          acuerdo con la configuración real de Adoppi.
+        </p>
+      </div>
+
+      <!-- Seguridad -->
+      <div class="card">
+        <h2><span class="icon">🔒</span> 6. Seguridad de los datos</h2>
+        <p>
+          La protección de la información personal es importante para Adoppi. Se
+          deben implementar medidas técnicas y organizativas apropiadas para
+          reducir los riesgos de acceso no autorizado, pérdida, alteración,
+          divulgación o uso indebido de los datos.
+        </p>
+        <p>
+          El acceso a la información debe limitarse de acuerdo con las funciones
+          y necesidades correspondientes. Sin embargo, ningún sistema digital
+          puede garantizar una seguridad absoluta.
+        </p>
+        <p>
+          Si se presenta un incidente que afecte los datos personales, se
+          deberán adoptar las medidas de respuesta y notificación que resulten
+          exigibles conforme a la legislación aplicable.
+        </p>
+      </div>
+
+      <!-- Conservación -->
+      <div class="card">
+        <h2><span class="icon">🗂️</span> 7. Conservación de los datos</h2>
+        <p>
+          Los datos personales se conservarán durante el tiempo necesario para
+          cumplir las finalidades informadas, prestar los servicios solicitados
+          y atender las obligaciones legales aplicables.
+        </p>
+        <p>
+          El tiempo de conservación puede variar según el tipo de información,
+          su finalidad y las obligaciones que correspondan. Cuando los datos
+          dejen de ser necesarios, deberán eliminarse o someterse a un proceso
+          de anonimización cuando proceda.
+        </p>
+        <p>
+          No se establece un plazo único de conservación para todas las
+          categorías de datos. Los periodos concretos deben definirse conforme a
+          las prácticas reales de Adoppi y a los requisitos legales.
+        </p>
+      </div>
+
+      <!-- Derechos -->
+      <div class="card">
+        <h2><span class="icon">⚖️</span> 8. Derechos de los usuarios</h2>
+        <p>
+          De acuerdo con la Ley 1581 de 2012 y las demás normas colombianas
+          aplicables, los titulares de datos personales pueden ejercer los
+          derechos que les correspondan, incluidos:
+        </p>
+        <ul>
+          <li>Conocer los datos personales objeto de tratamiento.</li>
+          <li>
+            Solicitar la actualización y rectificación de datos inexactos.
+          </li>
+          <li>Solicitar información sobre el uso dado a sus datos.</li>
+          <li>
+            Presentar consultas y reclamaciones relacionadas con el tratamiento.
+          </li>
+          <li>
+            Solicitar la supresión de los datos o la revocación de la
+            autorización cuando legalmente proceda.
+          </li>
+          <li>
+            Acudir ante la Superintendencia de Industria y Comercio cuando
+            corresponda, una vez cumplidos los requisitos legales aplicables.
+          </li>
+        </ul>
+        <p>
+          Las solicitudes serán atendidas conforme a los procedimientos y plazos
+          previstos en la legislación vigente.
+        </p>
+      </div>
+
+      <!-- Eliminación -->
+      <div class="card">
+        <h2><span class="icon">🗑️</span> 9. Eliminación de cuenta y datos</h2>
+        <p>
+          Puedes solicitar la eliminación de tu cuenta de Adoppi y de los datos
+          asociados mediante el procedimiento habilitado para este propósito.
+        </p>
+        <p>
+          La solicitud será evaluada y tramitada conforme al procedimiento
+          establecido y a los plazos legales aplicables. La eliminación podrá
+          estar sujeta a las excepciones legales que correspondan.
+        </p>
+        <p>
+          Para conocer los pasos, los datos que se eliminarán y las condiciones
+          del procedimiento, visita nuestra página:
+        </p>
+        <p style="margin-top: 12px">
+          <a
+            href="https://adoppi-eliminacion-decuenta.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Solicitar la eliminación de mi cuenta de Adoppi →
+          </a>
+        </p>
+      </div>
+
+      <!-- Menores -->
+      <div class="card">
+        <h2><span class="icon">🛡️</span> 10. Protección de menores de edad</h2>
+        <p>
+          El tratamiento de datos personales de niños, niñas y adolescentes debe
+          respetar sus derechos fundamentales, su interés superior y las
+          condiciones especiales previstas en la legislación colombiana.
+        </p>
+        <p>
+          Cuando corresponda, se deberán cumplir los requisitos de autorización
+          y las garantías especiales aplicables. Si identificas un posible
+          tratamiento inadecuado de datos de un menor, puedes comunicarte con
+          nuestro equipo para solicitar una revisión.
+        </p>
+      </div>
+
+      <!-- Cookies -->
+      <div class="card">
+        <h2>
+          <span class="icon">🍪</span> 11. Cookies y tecnologías similares
+        </h2>
+        <p>
+          Esta política se refiere principalmente a la aplicación móvil Adoppi.
+          Si la aplicación o sus servicios asociados utilizan cookies,
+          almacenamiento local u otras tecnologías similares, estas deberán
+          emplearse de acuerdo con su finalidad y las normas aplicables.
+        </p>
+        <p>
+          Cualquier tecnología adicional de seguimiento o análisis que implique
+          tratamiento de datos personales deberá documentarse de acuerdo con su
+          funcionamiento real y los permisos que sean necesarios.
+        </p>
+      </div>
+
+      <!-- Modificaciones -->
+      <div class="card">
+        <h2><span class="icon">📝</span> 12. Cambios en esta política</h2>
+        <p>
+          Adoppi puede actualizar esta Política de Privacidad cuando cambien sus
+          funcionalidades, sus prácticas de tratamiento de datos o los
+          requisitos legales aplicables.
+        </p>
+        <p>
+          La versión vigente estará disponible en esta página. Cuando
+          corresponda, se informará a los usuarios sobre los cambios relevantes
+          y se solicitarán las autorizaciones necesarias.
+        </p>
+      </div>
+
+      <!-- Contacto -->
+      <div class="card">
+        <h2><span class="icon">📬</span> 13. Contacto y consultas</h2>
+        <p>
+          Si tienes preguntas sobre esta política o deseas ejercer tus derechos
+          sobre tus datos personales, puedes comunicarte con el equipo de Adoppi
+          a través del siguiente correo electrónico:
+        </p>
+
+        <div class="contact-box">
+          <div class="mail-icon">✉️</div>
+          <div>
+            <a
+              href="mailto:adoppi0908@gmail.com?subject=Privacidad%20y%20datos%20personales"
+            >
+              adoppi0908@gmail.com
+            </a>
+            <p>Equipo Adoppi — Cali, Colombia</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      © 2026 Adoppi · Todos los derechos reservados · Colegio Rafael Navia Varón
+    </footer>
+  </body>
+</html>
